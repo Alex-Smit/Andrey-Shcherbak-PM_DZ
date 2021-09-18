@@ -4,7 +4,7 @@ if not value_1.isdigit():
     exit()
 
 value_2 = input("value: ")
-if not value_1.isdigit():
+if not value_2.isdigit():
     print('bad_value2')
     exit()
 
@@ -12,24 +12,16 @@ operator = input("operator (-\+\*\/): ")
 
 
 if operator == "+":
-    if value_1 and value_2:
-        print(int(value_1) + int(value_2))
-    else:
-        print('bad')
+    print(int(value_1) + int(value_2))
+
 elif operator == "-":
-    if value_1 and value_2:
-        print(int(value_1) - int(value_2))
-    else:
-        print('bad')
+    print(int(value_1) - int(value_2))
+
 elif operator == "/":
-        if value_1 and value_2:
-            print(int(value_1) / int(value_2))
-        else:
-            print('bad')
+    print(int(value_1) / int(value_2))
+
 elif operator == "*":
-        if value_1 and value_2:
-            print(int(value_1) * int(value_2))
-        else:
-            print('bad')
+    print(int(value_1) * int(value_2))
+
 else:
     print('bad operator')
