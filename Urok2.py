@@ -1,14 +1,14 @@
-value_1 = input("value: ")
+value_1 = input("Введите число 1: ")
 if not value_1.isdigit():
-    print('bad_value1')
+    print('Вы ввели не число')
     exit()
 
-value_2 = input("value: ")
+value_2 = input("Введите число 2: ")
 if not value_2.isdigit():
-    print('bad_value2')
+    print('Вы ввели не число')
     exit()
 
-operator = input("operator (-\+\*\/): ")
+operator = input("Введите оперант (-\+\*\/): ")
 
 
 if operator == "+":
