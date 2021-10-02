@@ -1,4 +1,4 @@
-value_1 = input("Введите число 1: ")
+value_1: str = input("Введите число 1: ")
 if not value_1.isdigit():
     print('Вы ввели не число')
     exit()
